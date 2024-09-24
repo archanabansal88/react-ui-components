@@ -1,0 +1,12 @@
+.nav-links a {
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+  display: block;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+}

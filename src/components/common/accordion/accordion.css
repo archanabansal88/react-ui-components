@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.accordion-item {
+  background-color: brown;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+
+.accordion-title {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-content .show {
+  height: auto;
+  max-height: 1000px;
+}

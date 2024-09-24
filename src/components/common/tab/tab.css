@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 0 4rem;
+}
+
+.tab-header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tab-buttons {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 2rem;
+  border-bottom: 2px solid lightgray;
+}
+.tab-content {
+  margin-top: 30px;
+}
+.tab-content img {
+  max-width: 31rem;
+  max-height: 20rem;
+  width: 100%;
+}
+
+.tab-content p {
+  margin-top: 20px;
+}
+
+.active {
+  color: green;
+  font-weight: 600;
+  border-bottom: 2px solid grey;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-container {
+    gap: 2rem;
+    padding: 1rem;
+    width: 95%;
+    margin: 5rem auto;
+  }
+
+  .tab-buttons {
+    flex-wrap: wrap;
+  }
+
+  .tab-content {
+    gap: 2rem;
+    min-height: 35rem;
+  }
+  .tab-buttons {
+    font-size: 1.6rem;
+  }
+
+  .content-container {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .tab-content img {
+    max-width: 150px;
+  }
+
+  .tab-content p {
+    font-size: 1.6rem;
+  }
+}

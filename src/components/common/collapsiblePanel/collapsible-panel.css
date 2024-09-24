@@ -1,0 +1,25 @@
+.item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #21aeca;
+}
+
+.panel-container {
+    width: 600px;
+    margin: 2rem auto;
+}
+
+.item-title:hover {
+  background-color: #3ab4cc;
+}
+
+.item-title,
+.item-content {
+  padding: 1rem;
+}
+
+.item-content {
+  background-color: #39b9d2;
+}
