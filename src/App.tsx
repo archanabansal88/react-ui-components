@@ -4,7 +4,7 @@ import data from "./data/data.json";
 import NavBar from "./components/navbar/navbar";
 import Login from "./components/common/login";
 import CollapsiblePanelContainer from "./container/collapsiblePanel";
-import Pagination from "./components/common/pagination/pagination";
+import Pagination from "./components/common/pagination/products";
 import TabContainer from "./container/tab";
 import CarouselContainer from "./container/carousel";
 import Home from "./page/home";

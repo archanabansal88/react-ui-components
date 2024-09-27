@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 
-.product-item > img{
+.product-item > img {
   height: 95%;
   margin-bottom: 3px;
 }
@@ -29,16 +29,30 @@
   justify-content: center;
 }
 
-.pagination > div{
+.pagination > div {
   padding: 15px 20px;
   border: 1px solid gray;
   cursor: pointer;
 }
 
-.pagination-disable{
+.pagination-disable {
   pointer-events: none;
 }
 
-.pagination-selected{
+.pagination-selected {
   background-color: rgb(220, 220, 220);
+}
+
+.product-category {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.category {
+  margin-right: 5px;
+  background: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
 }
